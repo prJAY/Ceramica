@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php include $_SERVER['DOCUMENT_ROOT']."/assets/_Header.php"; ?>
+    <title>Ceramica</title>
+</head>
+<body>
+    <?php include $_SERVER['DOCUMENT_ROOT']."/assets/_Nav_Loader.php"; ?>
+
+    <div class="container">
+        <br />
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/Images_Promo/1.jpg" class="d-block w-100" alt="Floor Tiles">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/Images_Promo/2.jpg" class="d-block w-100" alt="Wall Tiles">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/Images_Promo/3.jpg" class="d-block w-100" alt="Bathroom Tiles">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/Images_Promo/4.jpg" class="d-block w-100" alt="Kitchen Tiles">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <br />
+        <div class="row g-0">
+            <div class="col-md-6">
+                <a href="/Product/Search/?cata=wall"><img src="/assets/Images_Home/1.jpg" class="d-block w-100" alt="Tiles"></a>
+            </div>
+            <div class="col-md-6">
+                <a href="/Product/Search/?cata=kitchen"><img src="/assets/Images_Home/2.jpg" class="d-block w-100" alt="Tiles"></a>
+            </div>
+            <div class="col-md-6">
+                <a href="/Product/Search/?cata=bathroom"><img src="/assets/Images_Home/3.jpg" class="d-block w-100" alt="Tiles"></a>
+            </div>
+            <div class="col-md-6">
+                <a href="/Product/Search/?cata=floor"><img src="/assets/Images_Home/4.jpg" class="d-block w-100" alt="Tiles"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="/Product/Search/?cata=outdoor"><img src="/assets/Images_Home/5.jpg" class="d-block w-100" alt="Tiles"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="/Product/Search/?cata=Shape"><img src="/assets/Images_Home/6.jpg" class="d-block w-100" alt="Tiles"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="/Product/Search/?cata=Shape"><img src="/assets/Images_Home/7.jpg" class="d-block w-100" alt="Tiles"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="/Product/Search/?cata=Shape"><img src="/assets/Images_Home/8.jpg" class="d-block w-100" alt="Tiles"></a>
+            </div>
+        </div>
+    </div>
+
+    <?php include $_SERVER['DOCUMENT_ROOT']."/assets/_Footer.php"; ?>
+</body>
+</html>
